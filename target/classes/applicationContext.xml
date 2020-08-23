@@ -11,4 +11,9 @@
           class="ru.sbrf.springcourse.RockMusic">
     </bean>
 
+    <bean id="musicPlayer"
+        class="ru.sbrf.springcourse.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
